@@ -1,15 +1,5 @@
 /* VISTAL click transition */
 (function(){var st=document.createElement('style');st.textContent="#vtx{position:fixed;inset:0;z-index:99999;background:#12100e;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .7s cubic-bezier(.4,0,.2,1),visibility 0s linear .7s}\n#vtx.on{opacity:1;visibility:visible;pointer-events:all;transition:opacity .7s cubic-bezier(.4,0,.2,1)}\n#vtx video,#vtx .vtx-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 56%}\n#vtx .vtx-poster{background-size:cover;background-position:50% 56%}\n#vtx .vtx-flash{position:absolute;inset:0;background:radial-gradient(circle at 50% 55%,rgba(255,236,214,.95),rgba(184,115,51,.55) 38%,rgba(18,16,14,0) 70%);opacity:0;mix-blend-mode:screen}\n#vtx .vtx-mark{position:absolute;left:0;right:0;bottom:12vh;text-align:center;font:400 clamp(20px,3vw,34px)/1 'Fraunces',serif;letter-spacing:.32em;color:#f3ede2;opacity:0}";document.head.appendChild(st);})();
-. Replace CFG URLs after uploading. -->
-<style>
-#vtx{position:fixed;inset:0;z-index:99999;background:#12100e;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .7s cubic-bezier(.4,0,.2,1),visibility 0s linear .7s}
-#vtx.on{opacity:1;visibility:visible;pointer-events:all;transition:opacity .7s cubic-bezier(.4,0,.2,1)}
-#vtx video,#vtx .vtx-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 56%}
-#vtx .vtx-poster{background-size:cover;background-position:50% 56%}
-#vtx .vtx-flash{position:absolute;inset:0;background:radial-gradient(circle at 50% 55%,rgba(255,236,214,.95),rgba(184,115,51,.55) 38%,rgba(18,16,14,0) 70%);opacity:0;mix-blend-mode:screen}
-#vtx .vtx-mark{position:absolute;left:0;right:0;bottom:12vh;text-align:center;font:400 clamp(20px,3vw,34px)/1 'Fraunces',serif;letter-spacing:.32em;color:#f3ede2;opacity:0}
-</style>
-<script>
 (function(){
   if(window.__vtxInit)return;window.__vtxInit=true;
   var CFG={
